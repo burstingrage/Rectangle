@@ -1,0 +1,30 @@
+import java.util.Scanner;
+/**
+ * 
+ * @author Nhi Le
+ *
+ */
+
+public class Assignment2 {
+
+	public static void main(String[] args) {
+		
+		int n1, n2, n3, n4, n5, Sum, Average;
+		// Enter 5 numbers
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Enter 5 numbers with spaces between:");
+		n1 = keyboard.nextInt();
+		n2 = keyboard.nextInt();
+		n3 = keyboard.nextInt();
+		n4 = keyboard.nextInt();
+		n5 = keyboard.nextInt();
+		
+		//calculate the sum and average
+		Sum = n1 + n2 + n3 + n4 + n5;
+		Average = Sum/5;
+		System.out.println("The sum is " + Sum + " and the average is " + Average + ".");
+		
+
+	}
+
+}
